@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "dlss5_compositor"
+version = "2.6.1"
+name = "BlenDLSS5 - DLSS 5 Compositor Node"
+tagline = "DLSS 5 neural rendering for the compositor and viewport"
+maintainer = "LGCY Creative Studios"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Compositing", "Render"]
+
+[permissions]
+files = "Reads render passes from a temp folder, loads the DLSS 5 runtime DLL, writes processed frames"
