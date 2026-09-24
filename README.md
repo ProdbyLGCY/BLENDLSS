@@ -17,6 +17,16 @@ Thats all.
 Cheers! 
 
 
+<img width="1079" height="479" alt="studio-on" src="https://github.com/user-attachments/assets/35177012-24f2-47fe-83e4-9f9e0f152121" />
+<img width="1079" height="471" alt="studio-off" src="https://github.com/user-attachments/assets/ba156520-fb76-42e5-a43b-e74405f0ae9a" />
+<img width="1086" height="475" alt="matcap-on" src="https://github.com/user-attachments/assets/2b4b444c-cb4d-4527-8a3f-cca7c62124b7" />
+<img width="1083" height="472" alt="matcap-off" src="https://github.com/user-attachments/assets/b0c67478-c24e-4983-a7e5-21b51c7089e4" />
+<img width="1078" height="479" alt="eevee-on" src="https://github.com/user-attachments/assets/e742d34c-70fd-4605-a78a-6dc2be773f23" />
+<img width="1072" height="478" alt="eevee-off" src="https://github.com/user-attachments/assets/0bfa9c3d-db39-4363-9bfe-2ddecf4a4086" />
+<img width="1074" height="469" alt="cycles-on" src="https://github.com/user-attachments/assets/d3cac55c-af3d-488b-9306-e7aff836a50b" />
+<img width="1069" height="477" alt="cycles-off" src="https://github.com/user-attachments/assets/420d275c-10a6-4b75-8b8b-a3e445d0c270" />
+
+
 
 
 FYI The Read me is 99% AI also, I just read through it and changed what didnt make sense to keep. 
@@ -67,6 +77,8 @@ Using the no-DLL zip? After installing, go to *Edit → Preferences → Add-ons 
 
 ## The controls
 
+<img width="264" height="472" alt="settings-panel" src="https://github.com/user-attachments/assets/e62ace4e-b698-4358-96df-d8980ec93c6c" />
+
 You'll find the same panel in the sidebar (**N**) of both the 3D viewport and the compositor, and in *Render Properties → DLSS 5*.
 
 - **DLSS 5 ON / OFF**: the big switch. It works for the viewport and renders alike, which makes A/B comparisons easy.
@@ -108,6 +120,9 @@ DLSS 5 runs on the image Blender's viewport has just drawn, so there's no second
 The grid, outlines, gizmos and camera frame are peeled off first and laid back on top afterwards, so your UI stays crisp and untouched. With Depth & Motion on, DLSS 5 also gets the viewport depth and camera motion vectors, so it can keep its history while you move around.
 
 ### Renders
+
+<img width="1000" height="532" alt="compositor-node" src="https://github.com/user-attachments/assets/fa3ee2be-426a-415b-9ccb-57deb5fe50ad" />
+
 
 The compositor can't run code per pixel, so the add-on handles renders in four steps:
 
