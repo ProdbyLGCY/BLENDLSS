@@ -4,7 +4,7 @@ AI WARNING
 
 (THIS PROJECT IS VIBE CODED TO HELL) 
 
-I dont no nothin about nobody when it comes to coding, python, etc. I like 3d modeling and gaming, when dlss5 leaked, I wanted to try it in blender and couldnt find a reliable way to use it other then nuralscreen and running it over the whole screen. 
+I dont know nothin' about nobody when it comes to coding, python, etc. I like 3d modeling and gaming, when dlss5 leaked, I wanted to try it in blender and couldnt find a reliable way to use it other then nuralscreen and running it over the whole screen. 
 
 Claude (Opus 5.5 if anyone cares) was responsible for the lifting of making this work. 
 
@@ -16,18 +16,57 @@ Thats all.
 
 Cheers! 
 
+### Solid – Studio (2 Passes)
 
-<img width="1079" height="479" alt="studio-on" src="https://github.com/user-attachments/assets/35177012-24f2-47fe-83e4-9f9e0f152121" />
-<img width="1079" height="471" alt="studio-off" src="https://github.com/user-attachments/assets/ba156520-fb76-42e5-a43b-e74405f0ae9a" />
-<img width="1086" height="475" alt="matcap-on" src="https://github.com/user-attachments/assets/2b4b444c-cb4d-4527-8a3f-cca7c62124b7" />
-<img width="1083" height="472" alt="matcap-off" src="https://github.com/user-attachments/assets/b0c67478-c24e-4983-a7e5-21b51c7089e4" />
-<img width="1078" height="479" alt="eevee-on" src="https://github.com/user-attachments/assets/e742d34c-70fd-4605-a78a-6dc2be773f23" />
-<img width="1072" height="478" alt="eevee-off" src="https://github.com/user-attachments/assets/0bfa9c3d-db39-4363-9bfe-2ddecf4a4086" />
-<img width="1074" height="469" alt="cycles-on" src="https://github.com/user-attachments/assets/d3cac55c-af3d-488b-9306-e7aff836a50b" />
-<img width="1069" height="477" alt="cycles-off" src="https://github.com/user-attachments/assets/420d275c-10a6-4b75-8b8b-a3e445d0c270" />
+<table>
+  <tr>
+    <th>DLSS 5 Off</th>
+    <th>DLSS 5 On</th>
+  </tr>
+  <tr>
+    <td><img width="100%" alt="studio-off" src="https://github.com/user-attachments/assets/ba156520-fb76-42e5-a43b-e74405f0ae9a" /></td>
+    <td><img width="100%" alt="studio-on" src="https://github.com/user-attachments/assets/35177012-24f2-47fe-83e4-9f9e0f152121" /></td>
+  </tr>
+</table>
 
+### Solid – MatCap (2 Passes)
 
+<table>
+  <tr>
+    <th>DLSS 5 Off</th>
+    <th>DLSS 5 On</th>
+  </tr>
+  <tr>
+    <td><img width="100%" alt="matcap-off" src="https://github.com/user-attachments/assets/b0c67478-c24e-4983-a7e5-21b51c7089e4" /></td>
+    <td><img width="100%" alt="matcap-on" src="https://github.com/user-attachments/assets/2b4b444c-cb4d-4527-8a3f-cca7c62124b7" /></td>
+  </tr>
+</table>
 
+### EEVEE (2 Passes)
+
+<table>
+  <tr>
+    <th>DLSS 5 Off</th>
+    <th>DLSS 5 On</th>
+  </tr>
+  <tr>
+    <td><img width="100%" alt="eevee-off" src="https://github.com/user-attachments/assets/0bfa9c3d-db39-4363-9bfe-2ddecf4a4086" /></td>
+    <td><img width="100%" alt="eevee-on" src="https://github.com/user-attachments/assets/e742d34c-70fd-4605-a78a-6dc2be773f23" /></td>
+  </tr>
+</table>
+
+### Cycles (2 Passes)
+
+<table>
+  <tr>
+    <th>DLSS 5 Off</th>
+    <th>DLSS 5 On</th>
+  </tr>
+  <tr>
+    <td><img width="100%" alt="cycles-off" src="https://github.com/user-attachments/assets/420d275c-10a6-4b75-8b8b-a3e445d0c270" /></td>
+    <td><img width="100%" alt="cycles-on" src="https://github.com/user-attachments/assets/d3cac55c-af3d-488b-9306-e7aff836a50b" /></td>
+  </tr>
+</table>
 
 FYI The Read me is 99% AI also, I just read through it and changed what didnt make sense to keep. 
 
@@ -40,6 +79,7 @@ BlenDLSS5 is a Blender add-on that adds a **DLSS 5 compositor node**. Put it bet
 - on every frame of an animation render.
 
 There's a one-click **DLSS 5 ON / OFF** button in the viewport header, so comparing before and after takes a single click.
+
 ---
 
 ## What you need
@@ -51,11 +91,11 @@ There's a one-click **DLSS 5 ON / OFF** button in the viewport header, so compar
 
 ## Downloads
 
-| `BlenDLSS5.zip` | The add-on **with** `nvngx_dlssnr.dll` bundled. Drag it into Blender and it just works.
-
-| `BlenDLSS5_noDLL.zip` | The add-on **without** the DLL. Point it at your own .dll. I added this version in the case that in the future there's more DLL leaks and there's no point in grabbing the old version.
-
-| `nvngx_dlssnr.dll` | The raw DLSS 5 runtime on its own, if you'd rather use the small zip. (Current as of 9/24/26)
+| File | What it is |
+|---|---|
+| `BlenDLSS5.zip` | The add-on **with** `nvngx_dlssnr.dll` bundled. Drag it into Blender and it just works. |
+| `BlenDLSS5_noDLL.zip` | The add-on **without** the DLL. Point it at your own .dll. I added this version in the case that in the future there's more DLL leaks and there's no point in grabbing the old version. |
+| `nvngx_dlssnr.dll` | The raw DLSS 5 runtime on its own, if you'd rather use the small zip. (Current as of 9/24/26) |
 
 ## Install
 
